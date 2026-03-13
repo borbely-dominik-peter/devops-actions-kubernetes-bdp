@@ -47,7 +47,7 @@ jobs:
         
         mkdir -p ~/.kube
         echo "${{ secrets.JEDLIK_K8S_CONFIG }}" | base64 -d > ~/.kube/config
-        kubectl apply -f ./test-deployment.yaml
+        kubectl apply -f ./deployment.yaml
 
 
 # Powershell command to create base64 from config file
