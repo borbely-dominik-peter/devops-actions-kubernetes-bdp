@@ -37,7 +37,7 @@ spec:
     spec:
       containers:
         - name: github-action-teszt-container
-          image: ghcr.io/borbely-dominik-peter/ghaction-k8s-13a-acsop:1773397620
+          image: ghcr.io/borbely-dominik-peter/ghaction-k8s-13a-acsop:1773397706
           ports:
             - containerPort: 80
       imagePullSecrets:
